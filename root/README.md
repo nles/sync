@@ -8,7 +8,7 @@ gpg --pinentry-mode=loopback --output .grive --decrypt secret
 ```
 sudo mkdir /app
 sudo chown $USER:$(id -g -n) /app
-git clone https://github.com/nles/sync.git root
+git clone https://github.com/nles/sync.git .
 cp *grive-secret-file-location* .grive
 /app/root/install-grive.sh
 
@@ -19,9 +19,9 @@ cd /app/root/base
 
 cd /app/root/secrets
 ./toggle.sh
-cp opened/personal/* base/opened/keys
+cp opened/personal/* ../base/opened/keys
 
-cd /app/root/base
+cd /app/root/base/opened
 ./inits/001_base.sh
 # etc.
 ```
