@@ -1,6 +1,7 @@
 cron-log
 root/secret
 root/.grive*
+!root/.griveignore
 root/.trash
 root/tila
 root/base

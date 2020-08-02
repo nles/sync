@@ -1,0 +1,16 @@
+UNORGANIZED
+Screencastify
+base/opened
+base/opened.tar
+secrets/opened
+secrets/opened.tar
+**/node_modules
+**/node_modules/**
+**/.nuxt
+**/.nuxt/**
+**/.git
+**/.git/**
+**/.history
+**/.history/**
+**/env-production
+**/.env-p
