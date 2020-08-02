@@ -1,0 +1,7 @@
+cron-log
+root/secret
+root/.grive*
+root/.trash
+root/tila
+root/base
+root/secrets
