@@ -16,6 +16,6 @@ cmake ..
 make -j4
 sudo make install
 
-sudo mv /usr/bin/grive /usr/bin/grive2
+sudo mv $(which grive) $(dirname $(which grive))/grive2
 
 sudo rm -rf grive2
