@@ -8,6 +8,8 @@ secrets/opened.tar
 **/node_modules/**
 **/.nuxt
 **/.nuxt/**
+**/.next
+**/.next/**
 **/.git
 **/.git/**
 **/.history
